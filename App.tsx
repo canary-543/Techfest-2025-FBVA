@@ -1,20 +1,19 @@
-
 import React, { useState, useEffect, useRef } from 'react';
-import Terminal from './components/Terminal';
-import Countdown from './components/Countdown';
-import Background from './components/Background';
-import MatrixRain from './components/MatrixRain';
-import InteractiveText from './components/InteractiveText';
-import MusicPlayer from './components/MusicPlayer';
-import Home from './components/Home';
-import LoadingScreen from './components/LoadingScreen';
-import SocialButtons from './components/SocialButtons';
-import NavbarSlider from './components/NavbarSlider';
-import RegisterButton from './components/RegisterButton';
-import Gallery from './components/Gallery';
-import Modules from './components/Modules';
-import Events from './components/Events';
-import Team from './components/Team';
+import Terminal from './components/Terminal.tsx';
+import Countdown from './components/Countdown.tsx';
+import Background from './components/Background.tsx';
+import MatrixRain from './components/MatrixRain.tsx';
+import InteractiveText from './components/InteractiveText.tsx';
+import MusicPlayer from './components/MusicPlayer.tsx';
+import Home from './components/Home.tsx';
+import LoadingScreen from './components/LoadingScreen.tsx';
+import SocialButtons from './components/SocialButtons.tsx';
+import NavbarSlider from './components/NavbarSlider.tsx';
+import RegisterButton from './components/RegisterButton.tsx';
+import Gallery from './components/Gallery.tsx';
+import Modules from './components/Modules.tsx';
+import Events from './components/Events.tsx';
+import Team from './components/Team.tsx';
 
 // Generic View for Sub-Sections
 const SectionView: React.FC<{ title: string; children?: React.ReactNode }> = ({ title, children }) => (
